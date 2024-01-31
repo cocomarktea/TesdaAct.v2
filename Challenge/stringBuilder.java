@@ -10,11 +10,10 @@ public class stringBuilder {
 
         if (sampuLetra.length() < 10) {
             System.out.println("Invalid. please enter atlease 10 character.");
+            scanner.close();
             return;
         }
-
         StringBuilder stringBuilder = new StringBuilder(sampuLetra);
-
 
         System.out.println("Length of the string: " + stringBuilder.length());
         System.out.println("First character: " + stringBuilder.charAt(0));
