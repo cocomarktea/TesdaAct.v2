@@ -13,5 +13,6 @@ public class threeInt {
         }else{Arrays.sort(nums);
             System.out.println("Largest number is: "+nums[2]);
         }
+        myObj.close();
     }
 }

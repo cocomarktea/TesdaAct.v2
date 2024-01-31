@@ -31,5 +31,6 @@ public class monthDays {
             default:
                 System.out.println("Invalid month number");
         }
+        scanner.close();
     }
 }

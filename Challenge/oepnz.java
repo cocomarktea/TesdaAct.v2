@@ -24,5 +24,6 @@ public class oepnz {
             
         } else {System.out.println("Invalid input... no char pls. ");
         }
+        scanner.close();
     }
 }
