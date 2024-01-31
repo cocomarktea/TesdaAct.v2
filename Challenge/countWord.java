@@ -7,5 +7,6 @@ public class countWord {
         String sentence = scanner.nextLine();
         int wordCount = sentence.split("\\s+").length;
         System.out.println("The number of words in the sentence is: " + wordCount);
+        scanner.close();
     }
 }
