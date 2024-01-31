@@ -20,5 +20,6 @@ class ScoreGrade {
         }else{
             System.out.println("Your grade is A");
         }
+        myScore.close();
     }
 }

@@ -34,5 +34,6 @@ public class dayofWeek {
             }
         } else {System.out.println("Invalid input... no char pls. ");
         }
+        scanner.close();
     }
 }

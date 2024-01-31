@@ -11,5 +11,6 @@ public class intPattern {
                 System.out.print(j+" ");
             }
         }
+        myObj.close();
     }
 }

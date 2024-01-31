@@ -13,6 +13,7 @@ public class sumofInt {
             sumTotal+=nums[i];
         }
         System.out.println("The sum of everything: "+sumTotal);
+        myObj.close();
     }
     
 }

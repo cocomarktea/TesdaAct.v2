@@ -15,5 +15,6 @@ public class sum0feverything {
             }
         }
         System.out.println("The sum of everything: "+sumTotal);
+        myObj.close();
     }
 }

@@ -24,5 +24,6 @@ public class palindrome {
                 System.out.print("Your input is not considered Palindrome! try again..\n");
             }
         }
+        myObj.close();
     }
 }
